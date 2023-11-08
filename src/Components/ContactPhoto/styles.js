@@ -7,7 +7,7 @@ export const ContactPhoto = styled.img`
   border-radius: 50%;
 
   @media (max-width: 426px) {
-    width: ${props => props.width || '155px'};
-    height: ${props => props.height || '155px'};
+    width: ${props => props.width || '140px'};
+    height: ${props => props.height || '140px'};
   }
 `

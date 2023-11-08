@@ -22,7 +22,7 @@ export const Container = styled.div`
 export const Main = styled.main`
 
   background-color: black;
-  padding: 30px;
+  padding: 15px;
   justify-content: center;
   display: flex;
   width: 100vw;

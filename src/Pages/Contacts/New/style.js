@@ -18,9 +18,9 @@ export const Label = styled.label`
 
 export const Container = styled.div`
   align-items: center;
-  justify-content: space-evenly;
-  padding: 10px;
-  height: 90%;
+  justify-content: space-around;
+  padding: 0px  10px;
+  height: 95%;
   display: flex;
   flex-direction: column;
 `;
@@ -65,7 +65,7 @@ export const HeaderButton = styled.button`
   background: none;
   color: #007aff;
   font-size: 18px;
-  
+
   @media (max-width: 412px) {
     font-size: 15px;
   }
@@ -80,7 +80,7 @@ export const AddPhotoContainer = styled.div`
   height: 240px;
 
   @media (max-width: 426px) {
-    height: 220px;
+    height: 200px;
   }
 `
 
@@ -106,6 +106,10 @@ export const InputContainer = styled.div`
   flex-direction: column;
   width: 100%;
   height: 360px;
+
+  @media (max-height: 667px) {
+    height: 330px;
+  }
 `
 
 export const ErrosSpan = styled.span`

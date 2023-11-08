@@ -26,7 +26,7 @@ export const AddPhotoContainer = styled.div`
   width: 100%;
   height: 240px;
 
-  @media (max-width: 426px) {
-    height: 220px;
+  @media (max-height: 668px) {
+    height: 190px;
   }
 `

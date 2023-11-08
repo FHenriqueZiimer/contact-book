@@ -27,7 +27,7 @@ const InputField = ({ label, value, onChange, editing }) => {
 
 const TextAreaField = ({ label, value, onChange, editing }) => {
   return (
-    <ContactInfoWrapper label={label} height="120px">
+    <ContactInfoWrapper label={label} height="115px">
       {editing ? (
         <S.TexAreaEditing
           value={value}
@@ -102,7 +102,9 @@ const ContactDetails = () => {
       </HeaderContact>
 
       <S.DetailsWrapper>
-        {editing ? <AddPhoto handlePhotoChange={handlePhotoChange} profilePhoto={editedValues.profilePhoto} /> : <ContactPhoto img={editedValues.profilePhoto} />}
+        <S.ProfilePhotoWrapper>
+          {editing ? <AddPhoto handlePhotoChange={handlePhotoChange} profilePhoto={editedValues.profilePhoto} /> : <ContactPhoto img={editedValues.profilePhoto} />}
+        </S.ProfilePhotoWrapper>
 
         <S.ContactInfoContainer>
           <InputField label="Nome" value={editedValues.name} onChange={value => handleInputChange('name', value)} editing={editing} />

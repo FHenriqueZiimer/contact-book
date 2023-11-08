@@ -10,11 +10,14 @@ export const DetailsHeader = styled.div`
 
 export const DetailsWrapper = styled.div`
   display: flex;
-  margin-top: 15px;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  min-height: 650px;
+  height: 700px;
+
+  @media (max-height: 668px) {
+    height: 600px;
+  }
 `;
 
 export const ContactInfoContainer = styled.div`
@@ -22,7 +25,7 @@ export const ContactInfoContainer = styled.div`
   flex-direction: column;
   justify-content: space-between;
   width: 100%;
-  height: 62%;
+  height: 420px;
 `
 
 export const ContactInfoWrapper = styled.div`
@@ -36,6 +39,19 @@ export const ContactInfoWrapper = styled.div`
   width: 100%;
   background-color: white;
 `;
+
+export const ProfilePhotoWrapper = styled.div`
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+  height: 250px;
+
+  @media (max-height: 668px) {
+    height: 210px;
+  }
+  
+`
 
 export const InputEditing = styled.input`
   width: 100%;
