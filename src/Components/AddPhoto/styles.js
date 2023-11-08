@@ -25,4 +25,8 @@ export const AddPhotoContainer = styled.div`
   flex-direction: column;
   width: 100%;
   height: 240px;
+
+  @media (max-width: 426px) {
+    height: 220px;
+  }
 `

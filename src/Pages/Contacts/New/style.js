@@ -65,6 +65,7 @@ export const HeaderButton = styled.button`
   background: none;
   color: #007aff;
   font-size: 18px;
+  
   @media (max-width: 412px) {
     font-size: 15px;
   }
@@ -77,6 +78,10 @@ export const AddPhotoContainer = styled.div`
   flex-direction: column;
   width: 100%;
   height: 240px;
+
+  @media (max-width: 426px) {
+    height: 220px;
+  }
 `
 
 export const StyledTextArea = styled.textarea`

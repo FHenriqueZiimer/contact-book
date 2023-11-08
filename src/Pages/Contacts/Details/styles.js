@@ -10,11 +10,11 @@ export const DetailsHeader = styled.div`
 
 export const DetailsWrapper = styled.div`
   display: flex;
-  margin-top: 20px;
+  margin-top: 15px;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  min-height: 700px;
+  min-height: 650px;
 `;
 
 export const ContactInfoContainer = styled.div`
