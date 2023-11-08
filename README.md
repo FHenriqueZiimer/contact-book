@@ -48,14 +48,4 @@ Após a construção e inicialização do container, a aplicação estará dispo
 - React Router (para navegação entre páginas)
 - Estilização: (styled-components)
 
-## Contribuindo
-
-Se você gostaria de contribuir com este projeto, por favor, siga os passos abaixo:
-
-1. Faça um fork do repositório.
-2. Crie uma nova branch com uma descrição específica da sua contribuição: `git checkout -b feature/nova-funcionalidade` ou `git checkout -b bug/correcao`.
-3. Desenvolva e teste suas alterações.
-4. Commit suas alterações com uma mensagem descritiva: `git commit -m "Adiciona nova funcionalidade"`.
-5. Faça um push para o seu repositório fork: `git push origin feature/nova-funcionalidade`.
-6. Crie um Pull Request no repositório original.
 
