@@ -18,7 +18,7 @@ export const Label = styled.label`
 
 export const Container = styled.div`
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding: 0px  10px;
   height: 95%;
   display: flex;
