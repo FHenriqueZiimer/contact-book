@@ -14,10 +14,6 @@ export const DetailsWrapper = styled.div`
   align-items: center;
   justify-content: space-between;
   height: 600px;
-
-  @media (max-height: 668px) {
-    height: 600px;
-  }
 `;
 
 export const ContactInfoContainer = styled.div`
@@ -25,7 +21,7 @@ export const ContactInfoContainer = styled.div`
   flex-direction: column;
   justify-content: space-between;
   width: 100%;
-  height: 420px;
+  height: 62vh;
 `
 
 export const ContactInfoWrapper = styled.div`
@@ -48,8 +44,8 @@ export const ProfilePhotoWrapper = styled.div`
   width: 100%;
   height: 250px;
 
-  @media (max-height: 668px) {
-    height: 210px;
+  @media (max-height: 700px) {
+    height: 10vh;
   }
   
 `
@@ -58,7 +54,7 @@ export const InputEditing = styled.input`
   width: 100%;
   border: none;
   border-bottom: 1px solid #ccc;
-  font-size: 17px;
+  font-size: 14px;
   margin-top: 5px;
   outline: none;
 `
@@ -69,14 +65,14 @@ export const TexAreaEditing = styled.textarea`
   height: 150px;
   border: none;
   border-bottom: 1px solid #ccc;
-  font-size: 17px;
+  font-size: 14px;
   outline: none;
   resize: none;
 `
 
 export const ContactInfo = styled.p`
   margin-top: 5px;
-  font-size: 17px;
+  font-size: 14px;
   color: #555;
 `;
 

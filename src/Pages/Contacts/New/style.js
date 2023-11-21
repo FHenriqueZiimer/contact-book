@@ -51,7 +51,7 @@ export const PhotoInput = styled.input`
 `;
 
 export const MaskInput = styled(InputMask)`
-  font-size: 17px;
+  font-size: 14px;
   border-radius: 10px;
   padding: 15px;
   height: 50px;
@@ -70,18 +70,6 @@ export const HeaderButton = styled.button`
   }
 `;
 
-export const AddPhotoContainer = styled.div`
-  align-items: center;
-  justify-content: space-around;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 240px;
-
-  @media (max-width: 426px) {
-    height: 200px;
-  }
-`
 
 export const StyledTextArea = styled.textarea`
   width: 100%;
@@ -118,7 +106,7 @@ export const ErrosSpan = styled.span`
 `
 
 export const Input = styled.input`
-  font-size: 17px;
+  font-size: 14px;
   border-radius: 10px;
   padding: 15px;
   height: 50px;

@@ -7,15 +7,15 @@ export const PhotoInput = styled.input`
 export const AddPhoto = styled.label`
   display: block;
   width: 180px;
-  font-size: 16px;
+  margin-top: 15px;
+  font-size: 14px;
   border: none;
   border-radius: 20px;
-  height: 35px;
   background-color: #484d50;
   cursor: pointer;
   color: white;
   text-align: center;
-  padding: 10px;
+  padding: 5px;
 `;
 
 export const AddPhotoContainer = styled.div`
@@ -24,9 +24,5 @@ export const AddPhotoContainer = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 200px;
-
-  @media (max-height: 668px) {
-    height: 190px;
-  }
+  margin-bottom: 30px;
 `
