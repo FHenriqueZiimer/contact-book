@@ -26,8 +26,8 @@ export const Container = styled.div`
 `;
 
 export const ProfilePhoto = styled.img`
-  width: 180px;
-  height: 180px;
+  width: 10px;
+  height: 10px;
   border: 2px solid #ccc; 
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   border-radius: 50%;
@@ -44,7 +44,6 @@ export const AddPhoto = styled.label`
   cursor: pointer;
   color: white;
   text-align: center;
-  padding: 10px;
 `;
 
 export const PhotoInput = styled.input`

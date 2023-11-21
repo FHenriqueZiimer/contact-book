@@ -13,7 +13,7 @@ export const DetailsWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  height: 700px;
+  height: 600px;
 
   @media (max-height: 668px) {
     height: 600px;
@@ -43,6 +43,7 @@ export const ContactInfoWrapper = styled.div`
 export const ProfilePhotoWrapper = styled.div`
   align-items: center;
   flex-direction: column;
+  justify-content: space-between;
   display: flex;
   width: 100%;
   height: 250px;
@@ -80,8 +81,8 @@ export const ContactInfo = styled.p`
 `;
 
 export const ContactImg = styled.img`
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   border: 2px solid #ccc;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);

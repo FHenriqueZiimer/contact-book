@@ -24,7 +24,7 @@ export const AddPhotoContainer = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 240px;
+  height: 200px;
 
   @media (max-height: 668px) {
     height: 190px;
