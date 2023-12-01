@@ -21,7 +21,7 @@ export const ContactInfoContainer = styled.div`
   flex-direction: column;
   justify-content: space-between;
   width: 100%;
-  height: 62vh;
+  height: 62dvh;
 `
 
 export const ContactInfoWrapper = styled.div`

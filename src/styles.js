@@ -26,7 +26,7 @@ export const Main = styled.main`
   justify-content: center;
   display: flex;
   width: 100vw;
-  height: 100vh;
+  height: 100dvh;
   position: absolute;
 
   @media (max-width: 426px) {
